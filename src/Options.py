@@ -1,5 +1,5 @@
 import sys
-from Options import PerGameCommonOptions, FreeText, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, DeathLink, \
+from src.Options import PerGameCommonOptions, FreeText, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, DeathLink, \
     OptionGroup, StartInventoryPool, Visibility, item_and_loc_options, Option
 from .hooks.Options import before_options_defined, after_options_defined, before_option_groups_created, after_option_groups_created
 from .Data import category_table, game_table, option_table
@@ -20,9 +20,6 @@ class FillerTrapPercent(Range):
 class GenerateRegionDiagram(Toggle):
     """Generate a region diagram."""
     visibility = Visibility.none  # Hidden option
-
-class ManualDeathLink(DeathLink):
-    pass
 
 def createChoiceOptions(values: dict, aliases: dict) -> dict:
     values = {'option_' + i: v for i, v in values.items()}
@@ -85,7 +82,7 @@ if any(item.get('trap') for item in item_table):
     manual_options["filler_traps"] = FillerTrapPercent
 
 if game_table.get("death_link"):
-    manual_options["death_link"] = ManualDeathLink
+    manual_options["death_link"] = DeathLink
 
 
 ######################
