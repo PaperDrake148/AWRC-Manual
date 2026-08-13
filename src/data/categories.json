@@ -23,9 +23,6 @@
     "Factory_Anti_Tank" : {
         "hidden":true
     },
-    "Factory_Capture" : {
-        "hidden":true
-    },
     "Factory_AA" : {
         "hidden":true
     },

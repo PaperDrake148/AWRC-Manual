@@ -57,46 +57,138 @@
   },
   "Level 4": {
     "connects_to": [],
-    "requires": "|Key4| and |Nell|"
+    "requires": "|Key4| and |Andy|"
   },
   "Level 5": {
     "connects_to": [],
-    "requires": "|Key5| and |Nell|"
+    "requires": "|Key5| and |Andy| and |@Factory_Anti_Md_Tank|"
   },
   "Level 6": {
     "connects_to": [],
-    "requires": "|Key6| and |Nell|"
+    "requires": "|Key6| and |Andy| and |@Factory_AA|"
   },
   "Level 7A": {
     "connects_to": [],
-    "requires": "|Key7A| and |Nell|"
+    "requires": "|Key7A| and |Andy| and |@Factory_Direct|"
   },
   "Level 7M": {
     "connects_to": [],
-    "requires": "|Key7M| and |Nell|"
+    "requires": "|Key7M| and |Max|"
   },
   "Level 8A": {
     "connects_to": [],
-    "requires": "|Key8A| and |Nell|"
+    "requires": "|Key8A| and |Max|"
   },
   "Level 8M": {
     "connects_to": [],
-    "requires": "|Key8M| and |Nell|"
+    "requires": "|Key8M| and (|Andy| or |Max|)"
   },
   "Level 9A": {
     "connects_to": [],
-    "requires": "|Key9A| and |Nell|"
+    "requires": "|Key9A| and (|Andy| or |Max|)"
   },
   "Level 9M": {
     "connects_to": [],
-    "requires": "|Key9M| and |Nell|"
+    "requires": "|Key9M| and (|Andy| or |Max|) and |@Capture| and |@Factory_Direct| and |@Factory_Anti_Md_Tank|"
   },
   "Level 10A": {
     "connects_to": [],
-    "requires": "|Key10A| and |Nell|"
+    "requires": "|Key10A| and (|Andy| or |Max|)"
   },
   "Level 10M": {
     "connects_to": [],
-    "requires": "|Key10M| and |Nell|"
+    "requires": "|Key10M| and |Max|"
+  },
+  "Level 11": {
+    "connects_to": [],
+    "requires": "|Key11| and (|Andy| or |Max| or |Sami|)"
+  },
+  "Level 12": {
+    "connects_to": [],
+    "requires": "|Key12| and (|Andy| or |Max| or |Sami|)"
+  },
+  "Level 13": {
+    "connects_to": [],
+    "requires": "|Key13| and (|Andy| or |Max| or |Sami|) and |@Factory_Indirect| and |@Factory_Direct| and |@Factory_Anti_Md_Tank|"
+  },
+  "Level 14": {
+    "connects_to": [],
+    "requires": "|Key14| and (|Andy| or |Max| or |Sami|) and (|@Factory_AA| or |@Airport_AA|) and |T-Copter| and |@Capture| and (|Bomber| or |@Factory_Direct|)"
+  },
+  "Level 15": {
+    "connects_to": [],
+    "requires": "|Key15| and |Max|"
+  },
+  "Level 16": {
+    "connects_to": [],
+    "requires": "|Key16| and |Sami| and |Lander| and |@Capture| and (|Submarine| or |@Factory_Detector| and (|@Factory_Anti_Md_Tank| or |Battleship|))"
+  },
+  "Level 17": {
+    "connects_to": [],
+    "requires": "|Key17| and |Andy|"
+  },
+  "Level 18A": {
+    "connects_to": [],
+    "requires": "|Key18A| and |Andy| and |@Capture| and |@Factory_Anti_Md_Tank|"
+  },
+  "Level 19A": {
+    "connects_to": [],
+    "requires": "|Key19A| and |Andy|"
+  },
+  "Level 20A": {
+    "connects_to": [],
+    "requires": "|Key20A| and |Andy|"
+  },
+  "Level 21A": {
+    "connects_to": [],
+    "requires": "|Key21A| and |Andy|"
+  },
+  "Level 18M": {
+    "connects_to": [],
+    "requires": "|Key18M| and |Max|"
+  },
+  "Level 19M": {
+    "connects_to": [],
+    "requires": "|Key19M| and |Max|"
+  },
+  "Level 20M": {
+    "connects_to": [],
+    "requires": "|Key20M| and |Max|"
+  },
+  "Level 21M": {
+    "connects_to": [],
+    "requires": "|Key21M| and |Max|"
+  },
+  "Level 18S": {
+    "connects_to": [],
+    "requires": "|Key18S| and |Sami| and |@Capture| and (|@Factory_Detector| and |Submarine|) and |@Factory_Direct| and |@Factory_Indirect|"
+  },
+  "Level 19S": {
+    "connects_to": [],
+    "requires": "|Key19S| and |Sami|"
+  },
+  "Level 20S": {
+    "connects_to": [],
+    "requires": "|Key20S| and |Sami|"
+  },
+  "Level 21S": {
+    "connects_to": [],
+    "requires": "|Key21S| and |Sami|"
+  },
+  "Level 22": {
+    "connects_to": [],
+    "requires": "|Key22| and (|Andy| or |Max| or |Sami|)"
+  },
+  "Level 23": {
+    "connects_to": [],
+    "requires": "|Key23| and (|Andy| or |Max| or |Sami|) and |APC| and (|@Factory_AA| or |@Airport_AA|) and (|@Factory_Anti_Md_Tank| or |Airport_Anti_Tank| or |Battleship|) and |Cruiser| and |@Capture| and |@Factory_Indirect| and |@Factory_Direct|"
+  },
+  "Level 24": {
+    "connects_to": [],
+    "requires": "|Key24| and |Andy| and (((|Sami| or |Eagle| or |Drake|) and (|Max| or |Olaf| or |Grit|)) or ((|Sami| or |Eagle| or |Drake|) and |Kanbei|) or ((|Max| or |Olaf| or |Grit|) and |Kanbei|)) and |@Capture| and (|@Factory_AA| or |@Airport_AA|) and |@Factory_Direct| and (|@Factory_Anti_Md_Tank| or |@Airport_Anti_Tank|)"
+  },
+  "Level 25": {
+    "connects_to": [],
+    "requires": "|Key25| and |Andy| and |T-Copter| and |APC| and |@Airport_AA| and |@Capture| and |@Factory_Direct| and (|@Factory_Anti_Md_Tank| or |Airport_Anti_Tank|)"
   }
 }
