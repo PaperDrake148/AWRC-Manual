@@ -4,6 +4,7 @@ from src.Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
 from Options import OptionSet
+from ..Regions import region_table
 
 
 ####################################################################
@@ -36,10 +37,12 @@ from Options import OptionSet
 class EnabledStages(OptionSet):
     """Stages that will be eligible for checks"""
     display_name = "Enabled Stages"
-    valid_keys =
+    valid_keys = region_table.keys
+    default = frozenset(valid_keys)
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
+    options["enabled_stages"] = EnabledStages
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
