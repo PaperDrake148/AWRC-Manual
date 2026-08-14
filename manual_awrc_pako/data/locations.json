@@ -432,16 +432,11 @@
       "requires": ""
     },
     {
-      "name": "Clear The Final Battle (24) item 1",
+      "name": "Clear The Final Battle (24)",
       "region": "Level 24",
       "category": [],
-      "requires": ""
-    },
-    {
-      "name": "Clear The Final Battle (24) item 2",
-      "region": "Level 24",
-      "category": [],
-      "requires": ""
+      "requires": "",
+      "victory": true
     },
     {
       "name": "Clear Rivals! (25) item 1",
