@@ -18,7 +18,7 @@ import inspect
 import logging
 
 if TYPE_CHECKING:
-    from .. import ManualWorld
+    from . import ManualWorld
 
 class LogicErrorSource(IntEnum):
     INFIX_TO_POSTFIX = 1 # includes more closing parentheses than opening (but not the opposite)

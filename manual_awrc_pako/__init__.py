@@ -22,7 +22,7 @@ from .Helpers import is_item_enabled, get_option_value, remove_specific_item, re
 from .container import APManualFile
 
 from BaseClasses import CollectionState, ItemClassification, Item
-from .Options import PerGameCommonOptions
+from Options import PerGameCommonOptions
 from worlds.AutoWorld import World
 
 from .hooks.World import \
