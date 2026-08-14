@@ -7,25 +7,25 @@ import Utils
 from worlds.generic.Rules import forbid_items_for_player
 from worlds.LauncherComponents import Component, SuffixIdentifier, components, Type, launch_subprocess, icon_paths
 
-from .src.Data import item_table, location_table, event_table, region_table, category_table
-from .src.Game import game_name, filler_item_name, starting_items
-from .src.Meta import world_description, world_webworld
-from .src.Locations import location_id_to_name, location_name_to_id, location_name_to_location, location_name_groups, victory_names, event_name_to_event
-from .src.Items import item_id_to_name, item_name_to_id, item_name_to_item, item_name_groups
-from .src.DataValidation import runGenerationDataValidation, runPreFillDataValidation
+from ..manual_awrc_pako.Data import item_table, location_table, event_table, region_table, category_table
+from ..manual_awrc_pako.Game import game_name, filler_item_name, starting_items
+from ..manual_awrc_pako.Meta import world_description, world_webworld
+from ..manual_awrc_pako.Locations import location_id_to_name, location_name_to_id, location_name_to_location, location_name_groups, victory_names, event_name_to_event
+from ..manual_awrc_pako.Items import item_id_to_name, item_name_to_id, item_name_to_item, item_name_groups
+from ..manual_awrc_pako.DataValidation import runGenerationDataValidation, runPreFillDataValidation
 
-from .src.Regions import create_regions, create_events
-from .src.Items import ManualItem
-from .src.Rules import set_rules
-from .src.Options import manual_options_data
-from .src.Helpers import is_item_enabled, get_option_value, remove_specific_item, resolve_yaml_option, format_state_prog_items_key, convert_string_to_itemclassification, ProgItemsCat
-from .src.container import APManualFile
+from ..manual_awrc_pako.Regions import create_regions, create_events
+from ..manual_awrc_pako.Items import ManualItem
+from ..manual_awrc_pako.Rules import set_rules
+from ..manual_awrc_pako.Options import manual_options_data
+from ..manual_awrc_pako.Helpers import is_item_enabled, get_option_value, remove_specific_item, resolve_yaml_option, format_state_prog_items_key, convert_string_to_itemclassification, ProgItemsCat
+from ..manual_awrc_pako.container import APManualFile
 
 from BaseClasses import CollectionState, ItemClassification, Item
-from src.Options import PerGameCommonOptions
+from ..manual_awrc_pako.Options import PerGameCommonOptions
 from worlds.AutoWorld import World
 
-from .src.hooks.World import \
+from ..manual_awrc_pako.hooks.World import \
     hook_get_filler_item_name, before_create_regions, after_create_regions, \
     before_create_items_all, before_create_items_starting, before_create_items_filler, after_create_items, \
     before_create_item, after_create_item, \
@@ -551,7 +551,7 @@ class ManualWorld(World):
 
 def launch_client(*args):
     import CommonClient
-    from .src.ManualClient import launch as Main
+    from ..manual_awrc_pako.ManualClient import launch as Main
 
     if CommonClient.gui_enabled:
         launch_subprocess(Main, name="Manual client")

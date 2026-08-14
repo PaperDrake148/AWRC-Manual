@@ -10,7 +10,7 @@ from .Helpers import clamp, is_item_enabled, is_option_enabled, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 from worlds.AutoWorld import World
 from worlds.generic.Rules import set_rule, add_rule
-from src.Options import Choice, Toggle, Range, NamedRange, NumericOption
+from manulal_awrc_pako.Options import Choice, Toggle, Range, NamedRange, NumericOption
 
 import re
 import math
