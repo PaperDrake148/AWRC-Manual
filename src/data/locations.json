@@ -3,13 +3,455 @@
   "data": [
     {
       "name": "Freebie 1",
-      "region": "World Map",
       "category": [],
       "requires": ""
     },
     {
       "name": "Freebie 2",
-      "region": "World Map",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Tank Ops! (1) item 1",
+      "region": "Level 1",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Tank Ops! (1) item 2",
+      "region": "Level 1",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Copter Tactics! (2) item 1",
+      "region": "Level 2",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Copter Tactics! (2) item 2",
+      "region": "Level 2",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Fog of War! (3) item 1",
+      "region": "Level 3",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Fog of War! (3) item 2",
+      "region": "Level 3",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear It's War! (4) item 1",
+      "region": "Level 4",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear It's War! (4) item 2",
+      "region": "Level 4",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Gun Fighter! (5) item 1",
+      "region": "Level 5",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Gun Fighter! (5) item 2",
+      "region": "Level 5",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Air Ace! (6) item 1",
+      "region": "Level 6",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Air Ace! (6) item 2",
+      "region": "Level 6",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Max Strikes! (7M) item 1",
+      "region": "Level 7M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Max Strikes! (7M) item 2",
+      "region": "Level 7M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Max Strikes! (7A) item 1",
+      "region": "Level 7A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Max Strikes! (7A) item 2",
+      "region": "Level 7A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Max's Folly! (8A) item 1",
+      "region": "Level 8A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Max's Folly! (8A) item 2",
+      "region": "Level 8A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sniper! (8M) item 1",
+      "region": "Level 8M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sniper! (8M) item 2",
+      "region": "Level 8M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Olaf's Navy! (9A) item 1",
+      "region": "Level 9A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Olaf's Navy! (9A) item 2",
+      "region": "Level 9A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Blizzard Battle! (9M) item 1",
+      "region": "Level 9M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Blizzard Battle! (9M) item 2",
+      "region": "Level 9M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Olaf's Sea Strike! (10A) item 1",
+      "region": "Level 10A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Olaf's Sea Strike! (10A) item 2",
+      "region": "Level 10A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear History Lesson (10M) item 1",
+      "region": "Level 10M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear History Lesson (10M) item 2",
+      "region": "Level 10M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sami's Debut! (11) item 1",
+      "region": "Level 11",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sami's Debut! (11) item 2",
+      "region": "Level 11",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Kanbei Arrives! (12) item 1",
+      "region": "Level 12",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Kanbei Arrives! (12) item 2",
+      "region": "Level 12",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Mighty Kanbei! (13) item 1",
+      "region": "Level 13",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Mighty Kanbei! (13) item 2",
+      "region": "Level 13",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Kanbei's Error? (14) item 1",
+      "region": "Level 14",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Kanbei's Error? (14) item 2",
+      "region": "Level 14",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Divide & Conquer! item 1",
+      "region": "Level 15",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Divide & Conquer! item 2",
+      "region": "Level 15",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sami Marches On! (16) item 1",
+      "region": "Level 16",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sami Marches On! (16) item 2",
+      "region": "Level 16",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sonja's Goal! (17) item 1",
+      "region": "Level 17",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Sonja's Goal! (17) item 2",
+      "region": "Level 17",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Captain Drake! (18A) item 1",
+      "region": "Level 18A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Captain Drake! (18A) item 2",
+      "region": "Level 18A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Captain Drake! (18M) item 1",
+      "region": "Level 18M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Captain Drake! (18M) item 2",
+      "region": "Level 18M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Captain Drake! (18S) item 1",
+      "region": "Level 18S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Captain Drake! (18S) item 2",
+      "region": "Level 18S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Naval Clash! (19A) item 1",
+      "region": "Level 19A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Naval Clash! (19A) item 2",
+      "region": "Level 19A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Naval Clash! (19M) item 1",
+      "region": "Level 19M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Naval Clash! (19M) item 2",
+      "region": "Level 19M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Naval Clash! (19S) item 1",
+      "region": "Level 19S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Naval Clash! (19S) item 2",
+      "region": "Level 19S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Wings of Victory! (20A) item 1",
+      "region": "Level 20A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Wings of Victory! (20A) item 2",
+      "region": "Level 20A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Wings of Victory! (20M) item 1",
+      "region": "Level 20M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Wings of Victory! (20M) item 2",
+      "region": "Level 20M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Wings of Victory! (20S) item 1",
+      "region": "Level 20S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Wings of Victory! (20S) item 2",
+      "region": "Level 20S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Battle Mystery! (21A) item 1",
+      "region": "Level 21A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Battle Mystery! (21A) item 2",
+      "region": "Level 21A",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Battle Mystery! (21M) item 1",
+      "region": "Level 21M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Battle Mystery! (21M) item 2",
+      "region": "Level 21M",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Battle Mystery! (21S) item 1",
+      "region": "Level 21S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Battle Mystery! (21S) item 2",
+      "region": "Level 21S",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Andy Times Two! (22) item 1",
+      "region": "Level 22",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Andy Times Two! (22) item 2",
+      "region": "Level 22",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Enigma! (23) item 1",
+      "region": "Level 23",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Enigma! (23) item 2",
+      "region": "Level 23",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear The Final Battle (24) item 1",
+      "region": "Level 24",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear The Final Battle (24) item 2",
+      "region": "Level 24",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Rivals! (25) item 1",
+      "region": "Level 25",
+      "category": [],
+      "requires": ""
+    },
+    {
+      "name": "Clear Rivals! (25) item 2",
+      "region": "Level 25",
       "category": [],
       "requires": ""
     }

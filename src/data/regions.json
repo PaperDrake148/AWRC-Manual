@@ -1,48 +1,5 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-  "World Map": {
-    "starting": true,
-    "connects_to": [
-      "Level 1",
-      "Level 2",
-      "Level 3",
-      "Level 4",
-      "Level 5",
-      "Level 6",
-      "Level 7A",
-      "Level 7M",
-      "Level 8A",
-      "Level 8M",
-      "Level 9A",
-      "Level 9M",
-      "Level 10A",
-      "Level 10M",
-      "Level 11",
-      "Level 12",
-      "Level 13",
-      "Level 14",
-      "Level 15",
-      "Level 16",
-      "Level 17",
-      "Level 18A",
-      "Level 19A",
-      "Level 20A",
-      "Level 21A",
-      "Level 18M",
-      "Level 19M",
-      "Level 20M",
-      "Level 21M",
-      "Level 18S",
-      "Level 19S",
-      "Level 20S",
-      "Level 21S",
-      "Level 22",
-      "Level 23",
-      "Level 24",
-      "Level 25"
-    ],
-    "requires": ""
-  },
   "Level 1": {
     "connects_to": [],
     "requires": "|Key1| and |Nell|"
@@ -189,6 +146,6 @@
   },
   "Level 25": {
     "connects_to": [],
-    "requires": "|Key25| and |Andy| and |T-Copter| and |APC| and |@Airport_AA| and |@Capture| and |@Factory_Direct| and (|@Factory_Anti_Md_Tank| or |Airport_Anti_Tank|)"
+    "requires": "|Key25| and |Andy| and |T-Copter| and |APC| and |@Airport_AA| and |@Capture| and |@Factory_Direct| and (|@Factory_Anti_Md_Tank| or |Airport_Anti_Tank|)  "
   }
 }
