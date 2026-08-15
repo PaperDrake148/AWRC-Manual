@@ -12,7 +12,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
 def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str, Any]) -> Optional[bool]:
     if "Keys" in item["category"]:
         from ..Helpers import get_option_value
-        enabled_regions = get_option_value(multiworld, player, "enabled_regions")
+        enabled_regions = get_option_value(multiworld, player, "enabled_stages")
         name: str = item["name"]
         number: str = name[3:]
         region_name = "Level " + number
@@ -25,7 +25,7 @@ def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  d
     region_name = location["region"]
     if region_name[:5] == "Level":
         from ..Helpers import get_option_value
-        enabled_regions = get_option_value(multiworld, player, "enabled_regions")
+        enabled_regions = get_option_value(multiworld, player, "enabled_stages")
         return region_name in enabled_regions
     return None
 

@@ -211,7 +211,7 @@
     },
     {
       "count": 1,
-      "name": "Key19m",
+      "name": "Key19M",
       "category": [
         "Keys"
       ],
@@ -301,7 +301,8 @@
       "count": 1,
       "name": "Infantry",
       "category": [
-        "Units", "Capture"
+        "Units",
+        "Capture"
       ],
       "progression": true
     },
@@ -309,7 +310,9 @@
       "count": 1,
       "name": "Mech",
       "category": [
-        "Units", "Capture", "Factory_Direct"
+        "Units",
+        "Capture",
+        "Factory_Direct"
       ],
       "progression": true
     },
@@ -317,7 +320,9 @@
       "count": 1,
       "name": "Recon",
       "category": [
-        "Units", "Factory_Direct", "Factory_Detector"
+        "Units",
+        "Factory_Direct",
+        "Factory_Detector"
       ],
       "progression": true
     },
@@ -325,7 +330,9 @@
       "count": 1,
       "name": "Tank",
       "category": [
-        "Units", "Factory_Anti_Tank", "Factory_Direct"
+        "Units",
+        "Factory_Anti_Tank",
+        "Factory_Direct"
       ],
       "progression": true
     },
@@ -333,7 +340,10 @@
       "count": 1,
       "name": "Medium Tank",
       "category": [
-        "Units", "Factory_Anti_Tank", "Factory_Anti_Md_Tank", "Factory_Direct"
+        "Units",
+        "Factory_Anti_Tank",
+        "Factory_Anti_Md_Tank",
+        "Factory_Direct"
       ],
       "progression": true
     },
@@ -341,7 +351,9 @@
       "count": 1,
       "name": "Anti-Air",
       "category": [
-        "Units", "Factory_Direct", "Factory_AA"
+        "Units",
+        "Factory_Direct",
+        "Factory_AA"
       ],
       "progression": true
     },
@@ -357,7 +369,10 @@
       "count": 1,
       "name": "Artillery",
       "category": [
-        "Units", "Factory_Indirect", "Factory_Anti_Tank", "Factory_Anti_Md_Tank"
+        "Units",
+        "Factory_Indirect",
+        "Factory_Anti_Tank",
+        "Factory_Anti_Md_Tank"
       ],
       "progression": true
     },
@@ -365,7 +380,10 @@
       "count": 1,
       "name": "Rockets",
       "category": [
-        "Units", "Factory_Indirect", "Factory_Anti_Tank", "Factory_Anti_Md_Tank"
+        "Units",
+        "Factory_Indirect",
+        "Factory_Anti_Tank",
+        "Factory_Anti_Md_Tank"
       ],
       "progression": true
     },
@@ -373,7 +391,9 @@
       "count": 1,
       "name": "Missiles",
       "category": [
-        "Units", "Factory_AA", "Factory_Detector"
+        "Units",
+        "Factory_AA",
+        "Factory_Detector"
       ],
       "progression": true
     },
@@ -381,7 +401,8 @@
       "count": 1,
       "name": "Fighter",
       "category": [
-        "Units", "Airport_AA"
+        "Units",
+        "Airport_AA"
       ],
       "progression": true
     },
@@ -389,7 +410,8 @@
       "count": 1,
       "name": "Bomber",
       "category": [
-        "Units", "Airport_Anti_Tank"
+        "Units",
+        "Airport_Anti_Tank"
       ],
       "progression": true
     },
@@ -397,7 +419,8 @@
       "count": 1,
       "name": "B-Copter",
       "category": [
-        "Units", "Airport_Anti_Tank"
+        "Units",
+        "Airport_Anti_Tank"
       ],
       "progression": true
     },
