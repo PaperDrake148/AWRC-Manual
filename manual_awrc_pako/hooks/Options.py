@@ -37,7 +37,7 @@ from ..Regions import region_table
 class EnabledStages(OptionSet):
     """Stages that will be eligible for checks"""
     display_name = "Enabled Stages"
-    valid_keys = region_table.keys
+    valid_keys = region_table.keys()
     default = frozenset(valid_keys)
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
